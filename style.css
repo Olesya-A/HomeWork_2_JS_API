@@ -1,0 +1,51 @@
+body {
+  background-color: #ffffff;
+}
+
+svg {
+  width: 50px;
+  fill: rgb(0, 0, 0);
+}
+
+svg:hover {
+  cursor: pointer;
+  fill: rgb(205, 166, 116);
+}
+
+.rightArrow,
+.leftArrow {
+  width: 80px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.colorDot {
+  fill: rgb(205, 166, 116);
+}

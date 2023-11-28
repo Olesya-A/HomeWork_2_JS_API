@@ -9,7 +9,7 @@ svg {
 
 svg:hover {
   cursor: pointer;
-  fill: rgb(205, 166, 116);
+  fill: grey;
 }
 
 .rightArrow,
@@ -47,5 +47,5 @@ h1 {
 }
 
 .colorDot {
-  fill: rgb(205, 166, 116);
+  fill: rgb(255, 255, 255);
 }
